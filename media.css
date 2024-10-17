@@ -20,6 +20,9 @@
         margin: 10px;
         text-align: start;
     }
+    .home .child img{
+        object-fit: cover;
+    }
 }
 @media(max-width: 768px) {
     #hamburger {
@@ -126,6 +129,26 @@
         font-weight: 600;
         color: lightgray;
     }   
+    .skills .child ul{
+        justify-content: space-around;
+    }
+    .skills .child ul li {
+        width: auto;
+        height: 100%;
+        padding: 10px;
+        margin-right: 0px;
+        border-radius: 10px;
+        font-size: 100%;
+        font-weight: 700;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+    }    
+    .skills .skills-contents h2 {
+        font-size: 100%;
+    }
+    .skills .skills-contents p {
+        font-size: 100%;
+    }
 }
 @media(max-width: 375px){
     

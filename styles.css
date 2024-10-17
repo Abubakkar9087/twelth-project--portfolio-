@@ -715,6 +715,7 @@ section {
 
 .Contact h1 {
     margin-bottom: 10px;
+    font-size: 100%;
 }
 
 .Contact form {
@@ -841,14 +842,19 @@ section {
 /* footer page start  */
 footer {
     width: 100%;
-    padding: 20px 100px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     background-color: #4e54c8;
     color: white;
-    font-size: 20px;
+    font-size: 100%;
     font-weight: 700;
 }
-
+footer p{
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+}
 /* footer page end */
